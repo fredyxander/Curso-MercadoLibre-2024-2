@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamiento SEO</title>
+</head>
+<body>
+    
+    <!-- aria-label -->
+    <button role="button" aria-label="Boton para cerrar modal">X</button>
+
+    <!-- aria-labelledby -->
+     <p id="contactTitle">Formulario de contacto</p>
+     <input type="text" aria-labelledby="contactTitle">
+
+    <!-- aria-owns -->
+     <form id="owner" aria-owns="child-button">
+        <!-- ... -->
+     </form>
+     <div id="child-button">
+        <button>Enviar formulario</button>
+     </div>
+
+     <!-- aria*activedescendant -->
+      <select aria-activedescendant="item2">
+        <option>item 1 </option>
+        <option>item 2 </option>
+        <option>item 3 </option>
+      </select>
+
+
+      <!-- roles -->
+       <div role="boton-imagen" onclick="verMas()">
+            <img src=""/>
+       </div>
+
+</body>
+</html>
