@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas <Welcome/> Snapshot Welcome 1`] = `
+<DocumentFragment>
+  <div
+    class="welcome-page"
+  >
+    <h1>
+      Bienvenidos
+    </h1>
+    <h2>
+      Clase React y Node
+    </h2>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo maxime quisquam consequatur minus, amet, unde sed dolorum, rerum magnam atque accusamus dicta sunt deleniti fugiat recusandae deserunt sit culpa.
+    </p>
+  </div>
+</DocumentFragment>
+`;
